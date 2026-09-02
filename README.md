@@ -37,6 +37,15 @@ This repository contains hands-on infrastructure labs and architectural designs 
 
 ---
 
+## Lab 4: IAM Least-Privilege & Secure Access Policies
+* **Objective:** Design and enforce strict Identity and Access Management (IAM) security policies to limit administrative privileges and secure cloud resources.
+* **Key Implementation Details:**
+  * Created custom IAM policies utilizing JSON to enforce least-privilege access for EC2 instance management and S3 bucket restrictions.
+  * Configured multi-factor authentication (MFA) enforcement conditions within IAM policy statement structures.
+  * Tested and validated permission boundaries to ensure unauthorized users/roles are explicitly denied access to production storage artifacts.
+
+---
+
 ## Technical Skills Demonstrated
 * **Cloud Platforms:** Amazon Web Services (EC2, S3, EFS, VPC, IAM)
 * **Operating Systems:** Ubuntu Linux (CLI, package management via `apt`), Windows Server (RDP, PowerShell administration)
